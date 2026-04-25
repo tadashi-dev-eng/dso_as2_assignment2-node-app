@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="2.12">
+  <testsuite name="Todo API Tests" errors="0" failures="0" skipped="0" timestamp="2026-04-25T19:46:53" time="1.889" tests="6">
+    <testcase classname="Todo API Tests GET /todos - should return all todos" name="Todo API Tests GET /todos - should return all todos" time="0.139">
+    </testcase>
+    <testcase classname="Todo API Tests POST /todos - should create a new todo" name="Todo API Tests POST /todos - should create a new todo" time="0.05">
+    </testcase>
+    <testcase classname="Todo API Tests POST /todos - should return 400 if task is missing" name="Todo API Tests POST /todos - should return 400 if task is missing" time="0.012">
+    </testcase>
+    <testcase classname="Todo API Tests PUT /todos/:id - should update a todo" name="Todo API Tests PUT /todos/:id - should update a todo" time="0.014">
+    </testcase>
+    <testcase classname="Todo API Tests PUT /todos/:id - should return 404 if todo not found" name="Todo API Tests PUT /todos/:id - should return 404 if todo not found" time="0.013">
+    </testcase>
+    <testcase classname="Todo API Tests DELETE /todos/:id - should delete a todo" name="Todo API Tests DELETE /todos/:id - should delete a todo" time="0.011">
+    </testcase>
+  </testsuite>
+</testsuites>
