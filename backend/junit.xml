@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="0" errors="0" time="2.12">
-  <testsuite name="Todo API Tests" errors="0" failures="0" skipped="0" timestamp="2026-04-25T19:46:53" time="1.889" tests="6">
-    <testcase classname="Todo API Tests GET /todos - should return all todos" name="Todo API Tests GET /todos - should return all todos" time="0.139">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.118">
+  <testsuite name="Todo API Tests" errors="0" failures="0" skipped="0" timestamp="2026-04-26T06:43:52" time="1.878" tests="5">
+    <testcase classname="Todo API Tests GET /todos - should return all todos" name="Todo API Tests GET /todos - should return all todos" time="0.096">
     </testcase>
-    <testcase classname="Todo API Tests POST /todos - should create a new todo" name="Todo API Tests POST /todos - should create a new todo" time="0.05">
+    <testcase classname="Todo API Tests POST /todos - should create a new todo" name="Todo API Tests POST /todos - should create a new todo" time="0.063">
     </testcase>
-    <testcase classname="Todo API Tests POST /todos - should return 400 if task is missing" name="Todo API Tests POST /todos - should return 400 if task is missing" time="0.012">
+    <testcase classname="Todo API Tests POST /todos - should return 400 if task missing" name="Todo API Tests POST /todos - should return 400 if task missing" time="0.021">
     </testcase>
-    <testcase classname="Todo API Tests PUT /todos/:id - should update a todo" name="Todo API Tests PUT /todos/:id - should update a todo" time="0.014">
+    <testcase classname="Todo API Tests PUT /todos/:id - should update a todo" name="Todo API Tests PUT /todos/:id - should update a todo" time="0.019">
     </testcase>
-    <testcase classname="Todo API Tests PUT /todos/:id - should return 404 if todo not found" name="Todo API Tests PUT /todos/:id - should return 404 if todo not found" time="0.013">
-    </testcase>
-    <testcase classname="Todo API Tests DELETE /todos/:id - should delete a todo" name="Todo API Tests DELETE /todos/:id - should delete a todo" time="0.011">
+    <testcase classname="Todo API Tests DELETE /todos/:id - should delete a todo" name="Todo API Tests DELETE /todos/:id - should delete a todo" time="0.018">
     </testcase>
   </testsuite>
 </testsuites>

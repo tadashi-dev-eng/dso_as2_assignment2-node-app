@@ -4,7 +4,7 @@ pipeline {
         nodejs 'NodeJS'
     }
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/todo-app:latest'
+        DOCKER_IMAGE = 'baluthegoat/todo-app:latest'
     }
     stages {
 
@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-creds',
-                    url: 'https://github.com/yourusername/DSO-AS2.git'
+                    url: 'https://github.com/tadashi-dev-eng/dso_as2_assignment2-node-app.git'
             }
         }
 

@@ -7,14 +7,14 @@
     "test": "jest --ci --reporters=default --reporters=jest-junit --forceExit"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
     "express": "^4.18.2",
-    "pg": "^8.11.0"
+    "pg": "^8.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^29.0.0",
     "jest-junit": "^16.0.0",
-    "supertest": "^6.3.4"
+    "supertest": "^6.3.0"
   }
 }
